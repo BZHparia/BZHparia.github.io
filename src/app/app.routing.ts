@@ -5,7 +5,7 @@ import { HeaderComponent } from "./header/header.component";
 import { ButtonComponent } from "./button_signal/button.component";
 import { HomeComponent } from "./home/home.component";
 import { DataComponent } from "./data-page/data-page.component";
-import { FileComponent } from "./render_file/file.component";
+import { FileComponent } from "./file/file.component";
 
 
 export const routes: Routes = [

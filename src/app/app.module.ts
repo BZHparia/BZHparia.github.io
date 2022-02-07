@@ -9,12 +9,13 @@ import { ButtonComponent } from './button_signal/button.component';
 import { AppRoutingModule } from './app.routing';
 
 import { ItemDirective } from './item.directive';
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './home/home.component';
 import { DataComponent } from './data-page/data-page.component';
 import { HeaderComponent } from './header/header.component';
 import { DataService } from './data.service';
+import { FileComponent } from './file/file.component';
 
 
 // @NgModule decorator with its metadata
@@ -25,7 +26,8 @@ import { DataService } from './data.service';
     ButtonComponent,
     HomeComponent,
     DataComponent,
-    HeaderComponent
+    HeaderComponent,
+    FileComponent
   ],
   imports: [
     BrowserModule,
